@@ -14,12 +14,13 @@ ___
 ___
 ## Для запуска проекта:
 1. Клонируйте проект и установите зависимости
-   ```npm
-   npm install
-   ```
+
+   `npm install`
 3. Зарегистрируйтесь на openweathermap.org и получите 2 бесплатных API
 4. Создайте в корне проекта файл .env и пропишите в нем:
-   `REACT_APP_API_KEY=ВАШ_API_№1
-   REACT_APP_API_KEY2=ВАШ_API_№2`
+   ```javascript
+   REACT_APP_API_KEY=ВАШ_API_№1
+   REACT_APP_API_KEY2=ВАШ_API_№2````
 5. Запуск поекта
+
    `npm start`
