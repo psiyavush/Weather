@@ -16,7 +16,7 @@ ___
 1. Клонируйте проект и установите зависимости
 
    `npm install`
-3. Зарегистрируйтесь на openweathermap.org и получите 2 бесплатных API
+3. Зарегистрируйтесь на [openweathermap.org](https://openweathermap.org/) и создайте 2 бесплатных API
 4. Создайте в корне проекта файл .env и пропишите в нем:
    ```javascript
    REACT_APP_API_KEY=ВАШ_API_№1
