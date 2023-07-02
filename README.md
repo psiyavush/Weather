@@ -22,6 +22,6 @@ ___
    REACT_APP_API_KEY=ВАШ_API_№1
    REACT_APP_API_KEY2=ВАШ_API_№2
    ```
-5. Запуск поекта
+5. Запуск проекта
 
    `npm start`
