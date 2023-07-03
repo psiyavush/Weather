@@ -7,6 +7,7 @@ ___
 ## Используемые технологии:
 + React
 + React Router
++ React Helmet
 + CSS modules
     + Normalize.css
     + Font-awesome.css
