@@ -1,12 +1,18 @@
 import React from 'react';
 import Info from '../components/Info';
 import '../utils/font-awesome.min.css';
+import {Helmet} from "react-helmet";
 
 const About = () => {
     const h1 = 'Автор проекта'
     const description = 'Информация обо мне в соц.сетях'
     return (
         <>
+            <Helmet>
+                <title>Страница об авторе приложения прогноза погоды в любом городе</title>
+                <link rel="canonical" href="https://weather-alpha-umber.vercel.app/about" />
+                <meta name="description" content="Приложение прогноз погоды было сделано в рамках моего обучения по React.js и является частью моего портфолио. Автор приложения: Пак С.Н." />
+            </Helmet>
             <Info h1={h1} info={description}/>
             <div className="weather">
                 <div className="weather-total" style={{height: '400px'}}>
